@@ -14,6 +14,7 @@
 		551EBC341F6AA5740024E897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551EBC321F6AA5740024E897 /* LaunchScreen.storyboard */; };
 		551EBC3F1F6AA5740024E897 /* Activity_LificycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EBC3E1F6AA5740024E897 /* Activity_LificycleTests.swift */; };
 		551EBC4A1F6AA5740024E897 /* Activity_LificycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EBC491F6AA5740024E897 /* Activity_LificycleUITests.swift */; };
+		55C735071F6AC4ED00A8E933 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C735061F6AC4ED00A8E933 /* smiley.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		551EBC451F6AA5740024E897 /* Activity LificycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LificycleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		551EBC491F6AA5740024E897 /* Activity_LificycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LificycleUITests.swift; sourceTree = "<group>"; };
 		551EBC4B1F6AA5740024E897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C735061F6AC4ED00A8E933 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		551EBC281F6AA5740024E897 /* Activity Lificycle */ = {
 			isa = PBXGroup;
 			children = (
+				55C735061F6AC4ED00A8E933 /* smiley.png */,
 				551EBC291F6AA5740024E897 /* AppDelegate.swift */,
 				551EBC2B1F6AA5740024E897 /* ViewController.swift */,
 				551EBC2D1F6AA5740024E897 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C735071F6AC4ED00A8E933 /* smiley.png in Resources */,
 				551EBC341F6AA5740024E897 /* LaunchScreen.storyboard in Resources */,
 				551EBC311F6AA5740024E897 /* Assets.xcassets in Resources */,
 				551EBC2F1F6AA5740024E897 /* Main.storyboard in Resources */,

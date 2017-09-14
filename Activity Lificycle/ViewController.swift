@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     private var label: UILabel!
+    private var smiley: UIImage!
+    private var smileyView: UIImageView!
     private var animate = false
 
     override func viewDidLoad() {
@@ -24,9 +26,19 @@ class ViewController: UIViewController {
         label.backgroundColor = UIColor.clear
         view.addSubview(label)
         
+        let smileyFrame = CGRect(x: bounds.midX - 42, y: bounds.midY/2 - 42, width: 84, height: 84)
+        smileyView = UIImageView(frame: smileyFrame)
+        smileyView.contentMode = UIViewContentMode.center
+        let smileyPath = Bundle.main.path(forResource: "smiley", ofType: "png")!
+        smiley = UIImage(contentsOfFile: smileyPath)
+        smileyView.image = smiley
+        view.addSubview(smileyView)
+        
         let center = NotificationCenter.default
         center.addObserver(self, selector: #selector(ViewController.applicationWillResignActive), name: Notification.Name.UIApplicationWillResignActive, object: nil)
         center.addObserver(self, selector: #selector(ViewController.applicationDidBecomeActive), name: Notification.Name.UIApplicationDidBecomeActive, object: nil)
+        center.addObserver(self, selector: #selector(ViewController.applicationDidEnterBackground), name: Notification.Name.UIApplicationDidEnterBackground, object: nil)
+        center.addObserver(self, selector: #selector(ViewController.applicationWillEnterForeground), name: Notification.Name.UIApplicationWillEnterForeground, object: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,6 +75,19 @@ class ViewController: UIViewController {
         print("VC: \(#function)")
         animate = true
         rotateLabelDown()
+    }
+    
+    func applicationDidEnterBackground() {
+        print("VC: \(#function)")
+        self.smiley = nil
+        self.smileyView.image = nil
+    }
+    
+    func applicationWillEnterForeground() {
+        print("VC: \(#function)")
+        let smileyPath = Bundle.main.path(forResource: "smiley", ofType: "png")!
+        smiley = UIImage(contentsOfFile: smileyPath)
+        smileyView.image = smiley
     }
 }
 
