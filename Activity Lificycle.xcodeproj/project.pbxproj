@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551EBC2A1F6AA5740024E897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EBC291F6AA5740024E897 /* AppDelegate.swift */; };
+		551EBC2C1F6AA5740024E897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EBC2B1F6AA5740024E897 /* ViewController.swift */; };
+		551EBC2F1F6AA5740024E897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551EBC2D1F6AA5740024E897 /* Main.storyboard */; };
+		551EBC311F6AA5740024E897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551EBC301F6AA5740024E897 /* Assets.xcassets */; };
+		551EBC341F6AA5740024E897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551EBC321F6AA5740024E897 /* LaunchScreen.storyboard */; };
+		551EBC3F1F6AA5740024E897 /* Activity_LificycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EBC3E1F6AA5740024E897 /* Activity_LificycleTests.swift */; };
+		551EBC4A1F6AA5740024E897 /* Activity_LificycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EBC491F6AA5740024E897 /* Activity_LificycleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551EBC3B1F6AA5740024E897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EBC1E1F6AA5740024E897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551EBC251F6AA5740024E897;
+			remoteInfo = "Activity Lificycle";
+		};
+		551EBC461F6AA5740024E897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 551EBC1E1F6AA5740024E897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551EBC251F6AA5740024E897;
+			remoteInfo = "Activity Lificycle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551EBC261F6AA5740024E897 /* Activity Lificycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Activity Lificycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EBC291F6AA5740024E897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		551EBC2B1F6AA5740024E897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		551EBC2E1F6AA5740024E897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		551EBC301F6AA5740024E897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551EBC331F6AA5740024E897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		551EBC351F6AA5740024E897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551EBC3A1F6AA5740024E897 /* Activity LificycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LificycleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EBC3E1F6AA5740024E897 /* Activity_LificycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LificycleTests.swift; sourceTree = "<group>"; };
+		551EBC401F6AA5740024E897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551EBC451F6AA5740024E897 /* Activity LificycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Activity LificycleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551EBC491F6AA5740024E897 /* Activity_LificycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity_LificycleUITests.swift; sourceTree = "<group>"; };
+		551EBC4B1F6AA5740024E897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551EBC231F6AA5740024E897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EBC371F6AA5740024E897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EBC421F6AA5740024E897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551EBC1D1F6AA5740024E897 = {
+			isa = PBXGroup;
+			children = (
+				551EBC281F6AA5740024E897 /* Activity Lificycle */,
+				551EBC3D1F6AA5740024E897 /* Activity LificycleTests */,
+				551EBC481F6AA5740024E897 /* Activity LificycleUITests */,
+				551EBC271F6AA5740024E897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551EBC271F6AA5740024E897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551EBC261F6AA5740024E897 /* Activity Lificycle.app */,
+				551EBC3A1F6AA5740024E897 /* Activity LificycleTests.xctest */,
+				551EBC451F6AA5740024E897 /* Activity LificycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551EBC281F6AA5740024E897 /* Activity Lificycle */ = {
+			isa = PBXGroup;
+			children = (
+				551EBC291F6AA5740024E897 /* AppDelegate.swift */,
+				551EBC2B1F6AA5740024E897 /* ViewController.swift */,
+				551EBC2D1F6AA5740024E897 /* Main.storyboard */,
+				551EBC301F6AA5740024E897 /* Assets.xcassets */,
+				551EBC321F6AA5740024E897 /* LaunchScreen.storyboard */,
+				551EBC351F6AA5740024E897 /* Info.plist */,
+			);
+			path = "Activity Lificycle";
+			sourceTree = "<group>";
+		};
+		551EBC3D1F6AA5740024E897 /* Activity LificycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				551EBC3E1F6AA5740024E897 /* Activity_LificycleTests.swift */,
+				551EBC401F6AA5740024E897 /* Info.plist */,
+			);
+			path = "Activity LificycleTests";
+			sourceTree = "<group>";
+		};
+		551EBC481F6AA5740024E897 /* Activity LificycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				551EBC491F6AA5740024E897 /* Activity_LificycleUITests.swift */,
+				551EBC4B1F6AA5740024E897 /* Info.plist */,
+			);
+			path = "Activity LificycleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551EBC251F6AA5740024E897 /* Activity Lificycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551EBC4E1F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity Lificycle" */;
+			buildPhases = (
+				551EBC221F6AA5740024E897 /* Sources */,
+				551EBC231F6AA5740024E897 /* Frameworks */,
+				551EBC241F6AA5740024E897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Activity Lificycle";
+			productName = "Activity Lificycle";
+			productReference = 551EBC261F6AA5740024E897 /* Activity Lificycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551EBC391F6AA5740024E897 /* Activity LificycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551EBC511F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity LificycleTests" */;
+			buildPhases = (
+				551EBC361F6AA5740024E897 /* Sources */,
+				551EBC371F6AA5740024E897 /* Frameworks */,
+				551EBC381F6AA5740024E897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551EBC3C1F6AA5740024E897 /* PBXTargetDependency */,
+			);
+			name = "Activity LificycleTests";
+			productName = "Activity LificycleTests";
+			productReference = 551EBC3A1F6AA5740024E897 /* Activity LificycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		551EBC441F6AA5740024E897 /* Activity LificycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551EBC541F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity LificycleUITests" */;
+			buildPhases = (
+				551EBC411F6AA5740024E897 /* Sources */,
+				551EBC421F6AA5740024E897 /* Frameworks */,
+				551EBC431F6AA5740024E897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551EBC471F6AA5740024E897 /* PBXTargetDependency */,
+			);
+			name = "Activity LificycleUITests";
+			productName = "Activity LificycleUITests";
+			productReference = 551EBC451F6AA5740024E897 /* Activity LificycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551EBC1E1F6AA5740024E897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vladimir Rybalka";
+				TargetAttributes = {
+					551EBC251F6AA5740024E897 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					551EBC391F6AA5740024E897 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 551EBC251F6AA5740024E897;
+					};
+					551EBC441F6AA5740024E897 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 551EBC251F6AA5740024E897;
+					};
+				};
+			};
+			buildConfigurationList = 551EBC211F6AA5740024E897 /* Build configuration list for PBXProject "Activity Lificycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551EBC1D1F6AA5740024E897;
+			productRefGroup = 551EBC271F6AA5740024E897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551EBC251F6AA5740024E897 /* Activity Lificycle */,
+				551EBC391F6AA5740024E897 /* Activity LificycleTests */,
+				551EBC441F6AA5740024E897 /* Activity LificycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551EBC241F6AA5740024E897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EBC341F6AA5740024E897 /* LaunchScreen.storyboard in Resources */,
+				551EBC311F6AA5740024E897 /* Assets.xcassets in Resources */,
+				551EBC2F1F6AA5740024E897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EBC381F6AA5740024E897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EBC431F6AA5740024E897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551EBC221F6AA5740024E897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EBC2C1F6AA5740024E897 /* ViewController.swift in Sources */,
+				551EBC2A1F6AA5740024E897 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EBC361F6AA5740024E897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EBC3F1F6AA5740024E897 /* Activity_LificycleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551EBC411F6AA5740024E897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551EBC4A1F6AA5740024E897 /* Activity_LificycleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551EBC3C1F6AA5740024E897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551EBC251F6AA5740024E897 /* Activity Lificycle */;
+			targetProxy = 551EBC3B1F6AA5740024E897 /* PBXContainerItemProxy */;
+		};
+		551EBC471F6AA5740024E897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551EBC251F6AA5740024E897 /* Activity Lificycle */;
+			targetProxy = 551EBC461F6AA5740024E897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		551EBC2D1F6AA5740024E897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551EBC2E1F6AA5740024E897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		551EBC321F6AA5740024E897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551EBC331F6AA5740024E897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551EBC4C1F6AA5740024E897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551EBC4D1F6AA5740024E897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551EBC4F1F6AA5740024E897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Activity Lificycle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-Lificycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		551EBC501F6AA5740024E897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Activity Lificycle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-Lificycle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		551EBC521F6AA5740024E897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Activity LificycleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-LificycleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Activity Lificycle.app/Activity Lificycle";
+			};
+			name = Debug;
+		};
+		551EBC531F6AA5740024E897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Activity LificycleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-LificycleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Activity Lificycle.app/Activity Lificycle";
+			};
+			name = Release;
+		};
+		551EBC551F6AA5740024E897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Activity LificycleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-LificycleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Activity Lificycle";
+			};
+			name = Debug;
+		};
+		551EBC561F6AA5740024E897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Activity LificycleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-LificycleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Activity Lificycle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551EBC211F6AA5740024E897 /* Build configuration list for PBXProject "Activity Lificycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EBC4C1F6AA5740024E897 /* Debug */,
+				551EBC4D1F6AA5740024E897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551EBC4E1F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity Lificycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EBC4F1F6AA5740024E897 /* Debug */,
+				551EBC501F6AA5740024E897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		551EBC511F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity LificycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EBC521F6AA5740024E897 /* Debug */,
+				551EBC531F6AA5740024E897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		551EBC541F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity LificycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551EBC551F6AA5740024E897 /* Debug */,
+				551EBC561F6AA5740024E897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551EBC1E1F6AA5740024E897 /* Project object */;
+}
