@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					551EBC251F6AA5740024E897 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U39ELJVE7Q;
 						ProvisioningStyle = Automatic;
 					};
 					551EBC391F6AA5740024E897 = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U39ELJVE7Q;
 				INFOPLIST_FILE = "Activity Lificycle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-Lificycle";
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U39ELJVE7Q;
 				INFOPLIST_FILE = "Activity Lificycle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Activity-Lificycle";
@@ -507,6 +510,7 @@
 				551EBC501F6AA5740024E897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		551EBC511F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity LificycleTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				551EBC531F6AA5740024E897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		551EBC541F6AA5740024E897 /* Build configuration list for PBXNativeTarget "Activity LificycleUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				551EBC561F6AA5740024E897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
